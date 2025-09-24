@@ -55,6 +55,7 @@ function Nivel() {
             <th>Nombre</th>
             <th>Descripcion</th>
             <th>Dificultad</th>
+            <th>Acciones</th>
           </tr>
         </thead>
         <tbody>

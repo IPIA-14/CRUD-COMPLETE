@@ -2,9 +2,10 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
+    
     <nav>
+    <h1>Bienvenido al home </h1>
         <ul>
-            <li><Link to="/">Home</Link></li>
             <li><Link to="/crearEnemigo">Crear</Link></li>
             <li><Link to="/enemigo">Enemigo</Link></li>
             <li><Link to="/nivel">Nivel</Link></li>

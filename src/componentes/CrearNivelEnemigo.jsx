@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function CrearNivelEnemigo() {
   const [nivelEnemigo, setNivelEnemigo] = useState({
@@ -62,6 +63,7 @@ function CrearNivelEnemigo() {
         />
         <button type="submit">Crear</button>
       </form>
+      <Link to="/">Volver</Link>
     </div>
   );
 }

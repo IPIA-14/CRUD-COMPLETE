@@ -1,5 +1,7 @@
 import { useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams , Link } from "react-router-dom";
+
+
 
 function ActuaizarNivelEnemigo() {
 
@@ -56,6 +58,7 @@ function ActuaizarNivelEnemigo() {
                 />
                 <button type="submit">Actuaizar</button>
             </form>
+            <Link to="/">Volver</Link>
         </div>
     );
 }

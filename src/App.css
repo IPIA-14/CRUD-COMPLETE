@@ -40,3 +40,34 @@
 .read-the-docs {
   color: #888;
 }
+table {
+  width: 100%;
+  border-collapse: collapse; /* Quita espacios entre bordes */
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* sombra sutil */
+  border-radius: 8px;
+  overflow: hidden; /* respeta el border-radius */
+}
+
+thead {
+  background-color: #4CAF50; /* verde moderno */
+  color: white;
+  text-align: center;
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ffffff;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #060606; /* filas alternadas */
+}
+
+tbody tr:hover {
+  background-color: #c0b3c4; /* efecto hover */
+  transition: background 0.3s ease;
+}

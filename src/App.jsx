@@ -9,6 +9,7 @@ import ActualizarNivel from "./componentes/ActualizarNivel";
 import NivelEnemigo from "./componentes/NivelEnemigo"
 import CrearNivelEnemigo from "./componentes/CrearNivelEnemigo"
 import ActualizarNivelEnemigo from "./componentes/ActualizarNivelEnemigo"
+import './App.css'
 
 
 function App() {
