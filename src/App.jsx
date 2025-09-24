@@ -6,6 +6,9 @@ import ActualizarVida from "./componentes/ActualizarVida";
 import Nivel from "./componentes/Nivel";
 import CrearNivel from "./componentes/CrearNivel";
 import ActualizarNivel from "./componentes/ActualizarNivel";
+import NivelEnemigo from "./componentes/NivelEnemigo"
+import CrearNivelEnemigo from "./componentes/CrearNivelEnemigo"
+import ActualizarNivelEnemigo from "./componentes/ActualizarNivelEnemigo"
 
 
 function App() {
@@ -20,6 +23,11 @@ function App() {
           <Route path="/nivel" element={<Nivel />} />
           <Route path="/crearNivel" element={<CrearNivel />} />
           <Route path="/nivel/actualizar/:id" element={<ActualizarNivel />} />
+          <Route path="/nivelEnemigo" element={<NivelEnemigo />} />
+          <Route path="/crearNivelEnemigo" element={<CrearNivelEnemigo />} />
+          <Route path="/actuaizarNivelEnemigo/:id" element={<ActualizarNivelEnemigo />} />
+          
+
 
         </Routes>
       </Router>

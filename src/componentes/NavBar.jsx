@@ -9,7 +9,8 @@ function NavBar() {
             <li><Link to="/enemigo">Enemigo</Link></li>
             <li><Link to="/nivel">Nivel</Link></li>
             <li><Link to="/crearNivel">Crear Nivel</Link></li>
-
+            <li><Link to="/nivelEnemigo">NivelEnemigo</Link></li>
+            <li><Link to="/crearNivelEnemigo">Crear NivelEnemigo</Link></li>
         </ul>
     </nav>
   )
