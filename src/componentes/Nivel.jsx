@@ -47,7 +47,7 @@ function Nivel() {
 
     return(
         <div>
-      <h1>Enemigo</h1>
+      <h1>Nivel</h1>
       <table>
         <thead>
           <tr>
