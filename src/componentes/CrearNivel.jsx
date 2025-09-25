@@ -30,7 +30,7 @@ function CrearNivel(){
 
     return(
         <div>
-            <h1>Crear </h1>
+            <h1>Crear Nivel</h1>
             <form onSubmit={guardar}>
                 <input type="text" placeholder="Nombre" onChange={(e)=>setNombre(e.target.value)}></input>
                 <input type="text" placeholder="Descripcion" onChange={(e)=>setDescripcion(e.target.value)}></input>

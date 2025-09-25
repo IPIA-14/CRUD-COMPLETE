@@ -32,7 +32,7 @@ function CrearNivelEnemigo() {
 
   return (
     <div className="crearNivelEnemigo">
-      <h1>Crear NivelEnemigo</h1>
+      <h1>Crear Nivel Enemigo</h1>
       <form action="" onSubmit={crearNivelEnemigo}>
         <label htmlFor="id_nivel">Id Nivel</label>
         <input

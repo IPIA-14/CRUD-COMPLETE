@@ -43,7 +43,7 @@ function Enemigo() {
 
   return (
     <div className="enemigo">
-      <h1>Enemigo</h1>
+      <h1>Lista enemigos</h1>
       <table>
         <thead>
           <tr>

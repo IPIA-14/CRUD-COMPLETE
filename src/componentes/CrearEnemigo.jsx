@@ -33,7 +33,7 @@ function CrearEnemigo(){
 
     return(
         <div>
-            <h1>Crear </h1>
+            <h1>Crear Enemigo</h1>
             <form onSubmit={guardar}>
                 <input type="text" placeholder="Nombre" onChange={(e)=>setNombre(e.target.value)}></input>
                 <input type="text" placeholder="Tipo" onChange={(e)=>setTipo(e.target.value)}></input>
